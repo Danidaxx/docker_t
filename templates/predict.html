@@ -1,0 +1,38 @@
+
+<!-- extends from base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<p>
+<h3>Predict function</h3>
+</p>
+
+
+
+<div class="jumbotron">
+ <p class="lead"></p>
+
+<h3>Predict function</h3>
+<br>
+<form action="#" metod = "post">
+  <label for="predict">Choose country for prediction:</label>
+  <select id="country" name="country">
+    <option value="all">all</option>
+    <option value="eire">Eire</option>
+    <option value="france">France</option>
+   <option value="germany">Germany</option>
+    <option value="netherlands">Netherlands</option>
+    <option value="spain">Spain</option>
+<option value="united_kingdom">United Kingdom</option>
+    <option value="portugal">Portugal</option>
+  </select>
+  <button type="submit" formmethod="post">Submit</button>
+
+</form>
+</div>
+
+
+
+
+{% endblock %}

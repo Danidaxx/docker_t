@@ -1,0 +1,4 @@
+unique_id,timestamp,y_pred,y_proba,query,model_version,runtime
+a79c0810-297e-4359-871e-d2c8870defce,1597579512.2535563,[0],"[0.6, 0.4]","['united_states', 24, 'aavail_basic', 8]",0.1,00:00:02
+4dc1f25a-e978-4f90-a50e-cb19c34a5fac,1597579512.2535563,[0],"[0.6, 0.4]","['united_states', 24, 'aavail_basic', 8]",0.1,00:00:02
+49cfff4e-69e1-4df8-ba8f-0d8dba1da574,1597579628.847424,[183479],None,2018-01-05,0.1,000:00:43
